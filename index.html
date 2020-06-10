@@ -4,41 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
-  <body>
+  <body class="Page">
     <!--Topline-->
     <header>
       <nav>
         <a href="./">
-          <img src="./images/Logo.svg" alt="" />
+          <img class="Logo" src="./images/Logo.svg" alt="Logo" />
         </a>
-        <ul>
-          <li><a href="">Судия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="site-nav">
+          <li><a class="link" href="./index.html">Судия</a></li>
+          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li><a href="">info@devstudio.com</a></li>
-        <li><a href="">+38 096 111 11 11</a></li>
+      <ul class="contacts-nav">
+        <li><a class="contacts-link" href="">info@devstudio.com</a></li>
+        <li><a class="contacts-link" href="">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
       <!--Header-->
       <div>
-        <section>
-          <h1>Эффективные решения для вашего бизнеса</h1>
-          <a href="">Заказать услугу</a>
+        <section class="hero">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <a class="button" href="">Заказать услугу</a>
         </section>
       </div>
       <!--Features-->
-      <section>
+      <section class="section">
         <ul>
           <li>
             <img src="./images/antenna1.svg" alt="" />
-            <h3>Внимание к деталям</h3>
+            <h3 class="section-title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -46,7 +50,7 @@
           </li>
           <li>
             <img src="./images/clock1.svg" alt="" />
-            <h3>Пунктуальность</h3>
+            <h3 class="section-title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -54,7 +58,7 @@
           </li>
           <li>
             <img src="./images/diagram1.png" alt="" />
-            <h3>Планирование</h3>
+            <h3 class="section-title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -62,7 +66,7 @@
           </li>
           <li>
             <img src="./images/astronaut1.png" alt="" />
-            <h3>Современные технологии</h3>
+            <h3 class="section-title">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -75,8 +79,8 @@
         <img src="./images/Linehr.svg" alt="Line" width="1170" />
       </div>
       <!--What we do-->
-      <div>
-        <h2>Чем мы занимаемся</h2>
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <figure>
@@ -97,61 +101,73 @@
             </figure>
           </li>
         </ul>
-      </div>
+      </section>
       <!--Our team-->
-      <section>
-        <h2>Наша команда</h2>
+      <section class="section">
+        <h2 class="section-title">Наша команда</h2>
         <ul>
           <li>
             <img src="./images/imghum1.svg" alt="human1" width="270" />
-            <h4>John Smith</h4>
+            <h4 class="section-title">John Smith</h4>
             <p>Product Designer</p>
           </li>
           <li>
             <img src="./images/imghum2.svg" alt="human2" width="270" />
-            <h4>Marta Stewart</h4>
+            <h4 class="section-title">Marta Stewart</h4>
             <p>Frontend Developer</p>
           </li>
           <li>
             <img src="./images/imghum3.svg" alt="human3" width="270" />
-            <h4>Robert Jakis</h4>
+            <h4 class="section-title">Robert Jakis</h4>
             <p>Marketing</p>
           </li>
           <li>
             <img src="./images/imghum4.svg" alt="human4" width="270" />
-            <h4>Martin Doe</h4>
+            <h4 class="section-title">Martin Doe</h4>
             <p>UI Designer</p>
           </li>
         </ul>
       </section>
       <!--Our Clients-->
-      <section>
-        <h2>Постоянные клиенты</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">Постоянные клиенты</h2>
+        <ul class="our-clients">
           <li>
-            <a href=""><img src="./images/logo1client1.svg" alt="" /></a>
+            <a class="link" href="./"
+              ><img src="./images/logo1client1.svg" alt="logo1client1"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo2client2.svg" alt="" /></a>
+            <a href="./"
+              ><img src="./images/logo2client2.svg" alt="logo2client2"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/Objectclient3.svg" alt="" /></a>
+            <a href="./"
+              ><img src="./images/logo3client3.svg" alt="logo3client3"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo4client4.svg" alt="" /></a>
+            <a href="./"
+              ><img src="./images/logo4client4.svg" alt="logo4client4"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo5client5.svg" alt="" /></a>
+            <a href="./"
+              ><img src="./images/logo5client5.svg" alt="logo5client5"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo6client6.svg" alt="" /></a>
+            <a href="./"
+              ><img src="./images/logo6client6.svg" alt="logo6client6"
+            /></a>
           </li>
         </ul>
       </section>
     </main>
     <!-- Footer -->
-    <footer>
-      <img src="./images/Logo.svg" alt="" />
+    <footer class="footer">
+      <img src="./images/Logo.svg" alt="Logo" />
       <address>
         г. Киев, пр-т Леси Украинки, 26
       </address>
@@ -161,6 +177,8 @@
       </address>
       <h4>Присоединяйтесь</h4>
       <h4>Подпишитесь на рассылку</h4>
+      <a class="button" href="">Подписаться</a>
+      <p>2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
